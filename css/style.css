@@ -1,0 +1,76 @@
+/* Общий стиль */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+section.header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('../images/Osnf.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.6); /* Прозрачный фон для навигации */
+}
+
+nav .nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav .nav-links ul li {
+    margin: 0 15px;
+}
+
+nav .nav-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav .nav-links ul li a:hover {
+    color: #ffd700;
+}
+
+.text-box h1 {
+    font-size: 50px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.text-box p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    text-decoration: none;
+    color: white;
+    background: #ff6f61;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.hero-btn:hover {
+    background: #e94e3b;
+}

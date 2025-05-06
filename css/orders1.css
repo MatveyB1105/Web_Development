@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/reg_back.jpg");
+  }
+  
+  .container{
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  
+  .container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+  .container .title::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: #6c63ff;
+  }
+  
+  
+  .content form .service-details{
+    display: flex;
+    margin: 20px 0 12px 0;
+  }
+  
+  form .service-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  
+  
+  .service-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  .service-details .input-box input:focus{
+    border-color: #6c63ff;
+  }
+  
